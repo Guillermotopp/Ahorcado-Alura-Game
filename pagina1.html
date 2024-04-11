@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style pagina1.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Ahorcado - Challenge - Alura Latam</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./img/logo de Alura Latam.png" alt="imagen del logo de Alura Latam">
+    </header>
+    <main>
+        <div class="imagenCaja">
+            <img class="imagenAhorcado" src="./img/04- Ahorcado - Alura .png" alt="Imagen del juego del ahorcado">
+        </div>
+        <div class="palabraSecretaCaja">
+            <ul class="palabraSecreta">
+                <li> <input type="text" id="letra1"name="letra1" maxlength="1" size="1"></li>        
+                <li> <input type="text" id="letra2"name="letra2" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra3"name="letra3" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra4"name="letra4" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra5"name="letra5" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra6"name="letra6" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra7"name="letra7" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra8"name="letra8" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra9"name="letra9" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letra0"name="letra0" maxlength="1" size="1"></li>
+            
+            </ul>
+            <ul class="palabraSecretaAyuda">
+                <li> <input type="text" id="letraA"name="letraA" maxlength="1" size="1"></li>        
+                <li> <input type="text" id="letraB"name="letraB" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraC"name="letraC" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraD"name="letraD" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraE"name="letraE" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraF"name="letraF" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraG"name="letraG" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraH"name="letraH" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraI"name="letraI" maxlength="1" size="1"></li>
+                <li> <input type="text" id="letraJ"name="letraJ" maxlength="1" size="1"></li>
+            
+            </ul>    
+        </div>
+            
+            <div class="botones">
+                <button class="btnNuevoJuego" onclick="nuevoJuego()">Juego Nuevo</button>
+                <button class="btnDesistir"> Probar Suerte</button>
+            </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

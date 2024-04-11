@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+}
+header{
+    width: 120px;
+    height: 1440px;
+}
+.logoAlura{
+    margin-top: 40px;
+    width: 120px;
+    height: 48px;
+}
+main{
+    width: 1440px;
+    height: 1024px;
+    background-color: #F3F5FC;
+}
+.pagina2{
+    display: none;
+}
+.btnIniciarJugo{
+    display: block;
+    width: 317px;
+    height: 114px;
+    background-color: #0A3871;
+    margin: 402px 0px 0px 401px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.btnAgregarPalabra{
+    display: block;
+    width: 280px;
+    height: 67px;
+    margin: 38px  0px  0px 419px;
+    border: 1px solid #0A3871;
+    background: none;
+    border-radius: 20px;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.mensajeAlerta{
+    margin-top: 363px;
+}
+#palabra{
+    margin-left: 136px;
+    margin-top: 256px;
+    font-size: 32px;
+    
+}
+.botones{
+    margin-top: 31px;
+    display: block;
+    align-items: center;
+    width: 688px;
+}
+.btnGuardar{
+    display: inline;
+    width: 332px;
+    height: 67px;
+    background-color: #0A3871;
+
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.btnCancelar{
+    display: inline;
+    width: 332px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    background: none;
+    border-radius: 20px;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+/* Efecto hover */
+.btnIniciarJugo:hover,
+.btnAgregarPalabra:hover,
+.btnGuardar:hover,
+.btnCancelar:hover {
+    /* Cambios de estilo cuando se hace hover */
+    filter: brightness(1.1); /* Aclara los botones azules */
+    background-color: rgba(10, 56, 113, 0.8); /* Aplica un leve tono celeste a los botones claros */
+}

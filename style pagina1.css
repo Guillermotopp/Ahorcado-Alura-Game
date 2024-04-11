@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+    width: 1440px;
+    height: 1024px;
+}
+header{
+    width: 120px;
+    height: 1440px;
+    
+}
+.logoAlura{
+    margin-top: 40px;
+    width: 120px;
+    height: 48px;
+}
+main{
+    width: 1160px;
+    height: 944px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color:rgba(0, 0, 255, 0.03);
+}
+.mensajeAlerta{
+    margin-top: 363px;
+}
+#palabra{
+    margin-left: 136px;
+    margin-top: 256px;
+    font-size: 32px;
+    
+}
+.botones{
+    margin-top: 31px;
+    margin-left: 136px;;
+    display: block;
+    align-items: center;
+    width: 688px;
+}
+.btnNuevoJuego{
+    display: inline;
+    width: 332px;
+    height: 67px;
+    background-color: #0A3871;
+
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.btnDesistir{
+    display: blo;
+    width: 332px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    background: none;
+    border-radius: 20px;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Efecto hover */
+.btnNuevoJuego:hover,
+.btnDesistir:hover {
+    /* Cambios de estilo cuando se hace hover */
+    filter: brightness(1.1); /* Aclara los botones azules */
+    background-color: rgba(10, 56, 113, 0.8); /* Aplica un leve tono celeste a los botones claros */
+}
+.palabraSecreta{
+    width: auto;
+    height: 92px;
+    margin-left: auto;
+    margin-top: 580px;
+    max-width: 1100px;
+    min-width: 80px;
+
+   background-color: rgba(255, 255, 255,0.3);
+}
+.palabraSecreta li {
+    display: inline-block; /* Puedes ajustar este valor según el espaciado que desees */
+    margin-top: 0px;
+    height: 92px;    
+    border-bottom: 3px solid #0A3871; /* Establece un borde azul grueso en la parte inferior */
+    padding-bottom: 5px; /* Opcional: agrega un espacio entre el texto y el borde */
+
+}
+.palabraSecretaCaja{
+    width: fit-content;
+    height: 152px;
+    margin-left: 248px;
+    margin-top: 580px;
+    max-width: 1100px;
+    min-width: 80px;
+    background-color: rgba(10, 56, 113, 0.1);
+
+}
+input[id^="letra"] {
+    height: 92px;
+    border-bottom: #0A3871;
+    border-left: none; /* Quita el borde izquierdo */
+    border-right: none; /* Quita el borde derecho */
+    border-top: none; /* Quita el borde superior */
+}
+.palabraSecretaAyuda{
+    display: block;
+    white-space: nowrap;
+    height: fit-content;
+    width: 100%;
+    background-color: red;
+    
+}
+.palabraSecretaAyuda li{
+    display: inline-block;    /* Puedes ajustar este valor según el espaciado que desees */
+    width: 42px;
+    height: 38px;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    font-size: 22px;
+       
+}
+
+.imagenCaja{
+    width: 294px;
+    height: 360px;
+}
+.imagenAhorcado{
+    width: fit-content;
+    height: auto;
+}
