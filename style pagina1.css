@@ -82,7 +82,7 @@ main{
 .palabraSecreta li {
     display: inline-block; /* Puedes ajustar este valor según el espaciado que desees */
     margin-top: 0px;
-    height: 92px;    
+    height: 32px;    
     border-bottom: 3px solid #0A3871; /* Establece un borde azul grueso en la parte inferior */
     padding-bottom: 5px; /* Opcional: agrega un espacio entre el texto y el borde */
 
@@ -97,21 +97,8 @@ main{
     background-color: rgba(10, 56, 113, 0.1);
 
 }
-input[id^="letra"] {
-    height: 92px;
-    border-bottom: #0A3871;
-    border-left: none; /* Quita el borde izquierdo */
-    border-right: none; /* Quita el borde derecho */
-    border-top: none; /* Quita el borde superior */
-}
-.palabraSecretaAyuda{
-    display: block;
-    white-space: nowrap;
-    height: fit-content;
-    width: 100%;
-    background-color: red;
-    
-}
+
+
 .palabraSecretaAyuda li{
     display: inline-block;    /* Puedes ajustar este valor según el espaciado que desees */
     width: 42px;
@@ -130,4 +117,42 @@ input[id^="letra"] {
 .imagenAhorcado{
     width: fit-content;
     height: auto;
+}
+.mensajeFinal {
+    display: none;
+    padding: 32px 0px 0px 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    font-size: 42px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: red;
+    width: 50%;
+    border-width: 20px;
+    border-style: solid; /* Agregar el estilo del borde */
+}
+.mensajeFinal h3 {
+    margin: 12px;
+}
+
+.mensajeFinal button {
+    margin-top: 20px; /* Añadir espacio entre el texto y el botón */
+    display: inline;
+    width: 332px;
+    height: 67px;
+    background-color: #0A3871;
+
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.btnJuegoFin:hover {
+    /* Cambios de estilo cuando se hace hover */
+    filter: brightness(1.1); /* Aclara los botones azules */
+    background-color: rgba(10, 56, 113, 0.8); /* Aplica un leve tono celeste a los botones claros */
 }

@@ -15,7 +15,7 @@
     </header>
     <main>
         <div class="imagenCaja">
-            <img class="imagenAhorcado" src="./img/04- Ahorcado - Alura .png" alt="Imagen del juego del ahorcado">
+            <img class="imagenAhorcado" src="./img/04-Ahorcado-Alura.png" alt="Imagen del juego del ahorcado">
         </div>
         <div class="palabraSecretaCaja">
             <ul class="palabraSecreta">
@@ -48,7 +48,11 @@
             
             <div class="botones">
                 <button class="btnNuevoJuego" onclick="nuevoJuego()">Juego Nuevo</button>
-                <button class="btnDesistir"> Probar Suerte</button>
+                <button class="btnDesistir" onclick="probarSuerte()"> Probar Suerte</button>
+            </div>
+            <div class="mensajeFinal">
+                <h3> Ahorcado </h3>
+                <button class="btnJuegoFin" class="btnJuegoFin" onclick="ocultarMensaje()">Salir</button>
             </div>
     </main>
     <script src="./script.js"></script>
